@@ -14,18 +14,15 @@
       main h1,h2,p{color:black;}
     </style>
     <script>
-　　  let x = window.prompt("パスワードを入力してください。")
-      if(x === abcd){
-        location.href = "https://tozu1.github.io/a/";
-      }else{
-        location.href = "https://www.google.com/?hl=ja";                                            
-      }
+　　  let x = window.prompt("ユーザー名を入力してください。")
+      document.querySelector("h5").innerText = x;
     </script>
   </head>
   <body>
     <header>
       <a href="https://ja.wikipedia.org/wiki/%E9%A7%84%E6%B4%92%E8%90%BD">wiki</a>
       <a href="https://psych.or.jp/interest/ff-32/">ダジャレの作成の方法</a>
+      <h5> </h5>
     </header>
     <main>
       <div>
